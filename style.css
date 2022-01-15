@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.container{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+  width: 500px;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input{
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+select{
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+button{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 1rem;
+  background-color: blueviolet;
+  color: aliceblue;
+  transition: all 0.2s;
+}
+
+button:active{
+  background-color: aliceblue;
+  color: blueviolet;
+}
+
+.toDoItem{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  list-style: none;
+  margin-top: 10px;
+}
+
+
+.close{
+  color: red;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.close:hover{
+  color: brown;
+}
+
+
+

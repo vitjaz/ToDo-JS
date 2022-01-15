@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>JS ToDoList</title>
+</head>
+<body>
+  <header>
+    <h2>JS ToDoList</h2>
+  </header>
+
+  <div class="container">
+
+    <form autocomplete="off">
+
+      <input id="toDo" name="toDo" type="text" placeholder="Введите задачу">
+      <select name="userSelect" id="userSelect">
+        <option disabled selected>Выберите пользователя...</option>
+      </select>
+      <button>Добавить задачу</button>
+    </form>
+
+    <ul id="todoList"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
